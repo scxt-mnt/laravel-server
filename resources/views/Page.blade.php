@@ -7,8 +7,8 @@
 <body>
     <form action="/homePage" method="POST">
         @csrf
-        <input type="text"/>
-        <input type="text"/>
+        <input type="text" name="username"/>
+        <input type="text" name="password"/>
         <button>submit</button>
     </form>
 </body>
