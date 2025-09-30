@@ -8,6 +8,4 @@ Route::get('/', action: function () {
 });
 
 
-Route::post('/homePage', function() {
-    return "hello world";
-});
+Route::post('/homePage', [UserController::class,'home']);
